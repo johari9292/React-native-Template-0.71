@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      // Path alias config
+      "baseUrl": ".",
+      "paths": {
+        // This needs to be mirrored in babel.config.js
+   
+        "src/*": ["src/*"]
+      }
+    }
+  }
